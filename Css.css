@@ -157,7 +157,8 @@
     .container1{
         display: flex;
         position: absolute;
-        top:20px;
+        top: 60px;
+        align-items: center;
     }
     .change{
         height: 50vh;
@@ -176,17 +177,38 @@
     .change a{
         text-align: center;
     }
+    .large-text {
+        position: absolute;
+        width: 478px;
+        height: 134px;
+        top: 209px;
+        color: white;
+        align-items: center;
+        font-family: 'Cabin', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 67px;
+    }
+    #Instant{
+        color: white;
+        width: 100px;
+    }
+    .text1{
+        width: 300px;
+        font-family: 'Cabin', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 146.2%
+    }
     .b-img2{
         width: 300px;
         height: 300px;
     }
     .section1{
-        display: flex;
+        display: none;
         flex-direction: column;
-    }
-    .section2{
-        display: flex;
-        flex-direction: column;  
     }
     .section3{
         display: flex;
@@ -195,10 +217,7 @@
     .section4{
         display: flex;
         flex-direction: column;   
-    }
-    .section5{
-        display: flex;
-        flex-direction: column;     
+  
     }
     .container{
         display: flex;
@@ -224,13 +243,13 @@
         position: absolute;
         top:20px;
     }
-    .change{
+    .change {
         height: 50vh;
         width: 50vh;
         position: fixed;
         z-index: 1;
-        top:0;
-        right:0;
+        top: 0;
+        right: 0;
         background-color: #000;
         display: flex;
         flex-direction: column;
@@ -353,7 +372,6 @@ h2:hover::after {
     top: 209px;
     color:white;
     align-items: center;
-    justify-content: center;
     font-family: 'Cabin', sans-serif;
     font-style: normal;
     font-weight: 400;
