@@ -3,8 +3,8 @@ function clickHandler(){
     cont.classList.toggle('modify')
     const nav = document.getElementsByClassName('nav').item(0)
     nav.classList.toggle('change')
-    alert('Clicked')
-    console.log('click attempt was succesful')
+    alert('CLICKED')
+    console.log('Click attempt wsa succesful')
 }
 
     
